@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+//import logo from './logo.svg';
+//import './App.css';
+//import Header from './component/Header/Header';
+// import Header from './component/Header';
+
+//import Header from "./component/Header/Header";
+//import Hero from "./component/Hero/Hero";
+//import React from "react";
+
+import Navbar from "../src/components/Navbar";
+import Hero from "./components/Hero"
+import Bodyone from "./components/Bodyone";
+import Whychooseus from "./components/Whychoose";
+import Footer from "./components/Footer";
+import Stayupdate from "./components/Stayupdate";
+import Cryptot from "./components/Cryptot";
+import Bodytwo from "./components/Bodytwo";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Navbar />
+    <Hero />
+    <Cryptot />
+    <Bodyone />
+    <Bodytwo />
+    <Whychooseus />
+    <Stayupdate />
+    <Footer />
+    </>
   );
 }
 
